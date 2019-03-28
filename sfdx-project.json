@@ -2,17 +2,17 @@
     "packageDirectories": [
         {
             "path": "force-app",
-            "package": "ES-Base_Style",
+            "package": "NEW-ES-Styles",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT",
             "default": true,
             "dependencies": [
                 {
-                    "package": "EzSpaceBaseObjects",
+                    "package": "NEW-ES-Objects",
                     "versionNumber": "0.1.0.LATEST"
                 },
                 {
-                    "package": "ES-Base_Code",
+                    "package": "NEW-ES-Code",
                     "versionNumber": "0.1.0.LATEST"
                 }
             ]
@@ -22,7 +22,7 @@
     "sfdcLoginUrl": "https://login.salesforce.com",
     "sourceApiVersion": "45.0",
     "packageAliases": {
-        "ES-Base_Style": "0Hof4000000CactCAC",
-        "ES-Base_Style@0.1.0-1": "04tf40000047qygAAA"
+        "NEW-ES-Objects": "0Hof4000000CadrCAC",
+        "NEW-ES-Code": "0Hof4000000CadwCAC",
     }
 }
