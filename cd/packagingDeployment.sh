@@ -31,7 +31,7 @@
 # Package specific variables
 
 # In CI-CD, the build folder becomes the working folder 
-BUILD_NAME="ECFMG.ES-Base-Objects - CI"
+BUILD_NAME="ECFMG.ES-Base-Styles - CI"
 PACKAGE_NAME="NEW-ES-Styles"
 PACKAGE_VERSION="NEW-ES-Styles@0.1.0-1"
 
