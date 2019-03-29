@@ -2,10 +2,10 @@
     "packageDirectories": [
         {
             "path": "force-app",
+            "default": true,
             "package": "NEW-ES-Styles",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT",
-            "default": true,
             "dependencies": [
                 {
                     "package": "NEW-ES-Objects",
@@ -22,7 +22,9 @@
     "sfdcLoginUrl": "https://login.salesforce.com",
     "sourceApiVersion": "45.0",
     "packageAliases": {
+        "NEW-ES-Styles": "0Hof4000000Cae1CAC",
+        "NEW-ES-Code": "0Hof4000000CadwCAC",
         "NEW-ES-Objects": "0Hof4000000CadrCAC",
-        "NEW-ES-Code": "0Hof4000000CadwCAC"
+        "NEW-ES-Styles@0.1.0-1": "04tf40000047rJ8AAI"
     }
 }
