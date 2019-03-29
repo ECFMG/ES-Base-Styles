@@ -2,7 +2,20 @@
     "packageDirectories": [
         {
             "path": "force-app",
-            "default": true
+            "default": true,
+            "package": "NEW-ES-Styles",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "NEW-ES-Objects",
+                    "versionNumber": "0.1.0.LATEST"
+                },
+                {
+                    "package": "NEW-ES-Code",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
         },
         {
             "path": "force-app",
@@ -25,7 +38,7 @@
             ]
         },
         {
-            "path": "es-base-styles",
+            "path": "force-app",
             "package": "ES-Base_Style",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT",
@@ -49,6 +62,10 @@
         "ES-Base_Style": "0Hof4000000CactCAC",
         "ES-Base-Objects": "0Hof4000000CacjCAC",
         "ES-Base_Code": "0Hof4000000CacoCAC",
-        "ES-Base_Style@0.1.0-1": "04tf40000047qygAAA"
+        "ES-Base_Style@0.1.0-1": "04tf40000047qygAAA",
+        "NEW-ES-Styles": "0Hof4000000Cae1CAC",
+        "NEW-ES-Code": "0Hof4000000CadwCAC",
+        "NEW-ES-Objects": "0Hof4000000CadrCAC",
+        "NEW-ES-Styles@0.1.0-1": "04tf40000047rJ8AAI"
     }
 }
