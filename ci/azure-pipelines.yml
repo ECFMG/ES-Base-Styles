@@ -10,6 +10,7 @@ trigger:
     - Package
     exclude:
     - refs/tags/*
+pr: none
     
 pool:
   vmImage: 'Ubuntu 16.04'
